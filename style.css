@@ -1,0 +1,340 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header{
+    background-color: #F6F6F9;
+    margin-bottom: 22px;
+}
+.header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.header .header-top .header-left{
+    display: flex;
+    align-items: center;
+}
+.header .header-top .header-logo{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right: 20px;
+}
+.header .header-top .header-left .currency{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-top .header-left .currency p{
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #515151;
+    margin-right: 20px;
+    
+}
+.header .header-top .header-left .currency p b{ 
+    color: #285193;
+    
+    
+} 
+.header .header-top .header-right .telegram-logo{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.header .header-top .header-right .telegram-logo img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.header-mid{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+.header-mid .nav-links{
+    display: block;
+    padding: 22px 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+
+}
+.header .header-bottom{
+    display:  flex;
+    padding-bottom: 23px;
+    justify-content: center;
+}
+
+.main-contact{
+    background-color: #FFFFFF;
+    margin-top: 18px;
+}
+.main-contact .typing{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.main-contact .contact-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+input{
+    background: #F1F1F1;
+    opacity: 0.3;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+textarea{
+    background: #F1F1F1;
+    opacity: 0.3;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 600px;
+    height: 307px;
+    margin-bottom: 20px;
+}
+textarea::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+}
+
+input[type=password]{
+    background: #FBFBFB;
+    opacity: 0.3;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 221px;
+    height: 50px;
+}
+input[type=file]{
+    background: #FBFBFB;
+    opacity: 0.3;
+    border: 2px solid #285193;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 221px;
+    height: 50px;
+}
+input[type]::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+}
+button{
+    background: #295093;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 61px;
+}
+button[type=submit]{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF; 
+}
+.main-contact .contact-menu .contact-menu-right{
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    height: 280px;
+    background: rgba(41, 80, 145, 0.16);
+    box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+    border-radius: 5px;
+    border: 2px solid #BCC3CD;
+    box-sizing: border-box;
+}
+.main-contact .contact-menu .contact-menu-right .menu-left-section{
+    padding: 77px 0px 0px 25px ;
+}
+.main-contact .contact-menu .contact-menu-right p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #888888;
+    padding-bottom: 30px;
+}
+.main-contact .contact-menu .contact-menu-right .right-section{
+   margin: 77px 20px 0px 0px; 
+}
+.main-contact .contact-menu .contact-menu-right .right-section .social-media{
+    margin-right: 20px;
+}
+
+.main-contact .contact-menu .contact-menu-right .right-section .telegram-form{
+    background: #295091;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    align-items: center;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.main-contact .contact-menu .contact-menu-right .right-section .telegram-form img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.main-contact .contact-menu .contact-menu-right .right-section .telegram-form a{
+    background: #295091;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+footer{
+    background: #295093;
+}
+footer .footer-inner .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 4px solid #295093;;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-logo{
+    background: #133C82;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer .footer-inner .footer-top .footer-top-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-telegram{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+
+}
+footer .footer-inner .footer-top .footer-top-telegram img{
+   margin-right: 7px;
+   text-decoration: none;
+}
+footer .footer-inner .footer-bottom{
+    display: flex;
+    padding: 12px 0;
+}
+footer .footer-inner .footer-bottom .footer-about{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+}
+footer .footer-inner .footer-bottom .footer-list-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item a{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item:first-child{
+   margin-right: 100px;
+}
+
+
+
